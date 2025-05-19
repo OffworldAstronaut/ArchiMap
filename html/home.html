@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&#10010; Arquidiocese de Maceió</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+  </head>
+  <body>
+    <header class="head">
+      <h1>&#10010; ArchiMap &#10010;</h1>
+      <h2>Arquidiocese de Maceió</h2>
+    </header>
+
+    <main class="main">
+      <aside class="parishInfo" id="parish-info">
+        <h3>Informações</h3>
+        <div id="parish-details">Clique em uma paróquia no mapa.</div>
+      </aside>
+      <section id="map"></section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+      const map = L.map("map").setView([-9.6498, -35.7089], 12);
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "© OpenStreetMap contributors",
+      }).addTo(map);
+
+      function updateInfoBox(parish) {
+        const infoBox = document.getElementById("parish-details");
+        infoBox.innerHTML = `
+          <h4>${parish.name}</h4>
+          <p><strong>Endereço:</strong> ${
+            parish.address || "Não disponível"
+          }</p>
+          <p><strong>Pároco:</strong> ${parish.priest || "Não informado"}</p>
+          <p><strong>Telefone:</strong> ${
+            parish.contact.phone || "Não informado"
+          }</p>
+          <p><strong>Email:</strong> ${
+            parish.contact.email || "Não informado"
+          }</p>
+          <p><strong>Instagram:</strong> ${
+            parish.contact.instagram || "Não informado"
+          }</p>
+          ${
+            parish.schedule?.masses
+              ? `<p><strong>Missas</strong><br>${parish.schedule.masses.join(
+                  "<br>"
+                )}</p>`
+              : ""
+          }
+          ${(() => {
+            const conf = parish.schedule?.confessions;
+            if (Array.isArray(conf)) {
+              return `<p><strong>Confissões</strong><br>${conf.join(
+                "<br>"
+              )}</p>`;
+            } else if (typeof conf === "string" && conf.trim() !== "") {
+              return `<p><strong>Confissões</strong><br>${conf}</p>`;
+            } else {
+              return "";
+            }
+          })()}
+          ${
+            parish.schedule?.events
+              ? `<p><strong>Eventos</strong><br>${parish.schedule.events.join(
+                  "<br>"
+                )}</p>`
+              : ""
+          }
+        `;
+      }
+
+      fetch("parishes.json")
+        .then((response) => response.json())
+        .then((data) => {
+          data.parishes.forEach((parish) => {
+            const marker = L.marker([
+              parish.location.lat,
+              parish.location.lng,
+            ]).addTo(map);
+
+            marker.bindPopup(`<strong>${parish.name}</strong>`);
+            marker.on("click", () => updateInfoBox(parish));
+          });
+        })
+        .catch((error) => {
+          console.error("Erro ao carregar os dados das paróquias:", error);
+        });
+    </script>
+
+    <footer>
+      Feito por Rafael Amorim, para todos os membros da Igreja de Cristo
+    </footer>
+  </body>
+</html>

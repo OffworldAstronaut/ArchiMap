@@ -1,0 +1,62 @@
+{
+    "parishes": [
+      {
+        "id": 1,
+        "name": "Paróquia São Paulo Apóstolo",
+        "location": {
+          "lat": -9.563,
+          "lng": -35.750
+        },
+        "address": "Rua João Farias Filho, 57081-085",
+        "neighborhood": "Tabuleiro dos Martins",
+        "priest": "Pe. Manoel José dos Santos",
+        "schedule": {
+          "masses": [
+            "Sábado (19h)",
+            "Domingo (7h e 19h)"
+          ],
+          "confessions": "30 minutos antes das Missas",
+          "events": [
+            "Adoração (Quinta-feira, 6h às 18h)"
+          ]
+        },
+        "contact": {
+          "phone": "+55 82 3334-2816",
+          "email": "",
+          "instagram": "@avozdoapostolo"
+        },
+        "type": "matriz"
+      },
+      {
+        "id": 2,
+        "name": "Paróquia de São Vicente de Paulo",
+        "location": {
+          "lat": -9.551,
+          "lng": -35.751
+        },
+        "address": "Rua Quarenta e Nove, 57073-000",
+        "neighborhood": "Cidade Universitária",
+        "priest": "",
+        "schedule": {
+          "masses": [
+            "1ª Sexta-feira do mês (19h)",
+            "Quarta-feira (19h)",
+            "Domingo (8h e 17h)"
+          ],
+          "confessions": "Sempre após as Missas",
+          "events": [
+            "Adoração (1ª Sexta-feira do mês, 18h às 19h)",
+            "Adoração (Quarta-feira, 15h às 19h)",
+            "Terço dos Homens (Quarta-feira, 20h)"
+          ]
+        },
+        "contact": {
+          "phone": "",
+          "email": "",
+          "instagram": "@pascomsaovicentedepaulo"
+        },
+        "type": "matriz"
+      }
+    ]
+  }
+  
