@@ -73,6 +73,135 @@
         "instagram": "@catedraldemaceionsp"
       },
       "type": "catedral"
+    },
+    {
+      "id": 4,
+      "name": "Igreja de Nossa Senhora Aparecida",
+      "location": {
+        "lat": -9.566568,
+        "lng": -35.7525
+      },
+      "address": "R. Daise Talberg Mitchel, 202-278, 57082-410",
+      "neighborhood": "Tabuleiro dos Martins",
+      "priest": "Pe. Manoel José dos Santos",
+      "schedule": {
+        "masses": ["Domingo (10h)"],
+        "confessions": "30 minutos antes das Missas",
+        "events": ["---"]
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "instagram": "@comunidadeaparecida.al"
+      },
+      "type": "comunidade",
+      "subdivision_of": "Paróquia de São Paulo Apóstolo"
+    },
+    {
+      "id": 5,
+      "name": "Santuário de Nossa Senhora de Fátima",
+      "location": {
+        "lat": -9.565814,
+        "lng": -35.745796
+      },
+      "address": "R. Dr. Benedito Lessa, 10, 57083-147",
+      "neighborhood": "Antares",
+      "priest": "Pe. Manoel José dos Santos",
+      "schedule": {
+        "masses": ["Domingo (17h)"],
+        "confessions": "30 minutos antes das Missas",
+        "events": ["---"]
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "instagram": "@santuario.nsradefatima_al"
+      },
+      "type": "comunidade",
+      "subdivision_of": "Paróquia de São Paulo Apóstolo"
+    },
+    {
+      "id": 6,
+      "name": "Paróquia São João Evangelista",
+      "location": {
+        "lat": -9.566031,
+        "lng": -35.743071
+      },
+      "address": "Avenida Jornalista Granja, Conj. Henrique Equelman",
+      "neighborhood": "Antares",
+      "priest": "Pe. Ramos",
+      "schedule": {
+        "masses": ["Terça e Quinta (17h)", "Domingo (7h e 17h)"],
+        "confessions": "",
+        "events": ["---"]
+      },
+      "contact": {
+        "phone": "+55 82 98727-1747",
+        "email": "",
+        "instagram": "@sjevangelistamcz"
+      },
+      "type": "matriz"
+    },
+    {
+      "id": 6,
+      "name": "Paróquia São Lucas",
+      "location": {
+        "lat": -9.646878,
+        "lng": -35.711828
+      },
+      "address": "Avenida Dona Constança de Góes Monteiro, 1700",
+      "neighborhood": "Mangabeiras",
+      "priest": "Cônego José Aluísio",
+      "schedule": {
+        "masses": [
+          "Segunda, Quarta e Sexta (17h)",
+          "Terça e Quinta (19h)",
+          "Sábado (17h e 19h)",
+          "1º Sábado do mês (7h)",
+          "Domingo (7h, 9h, 17h e 19h)"
+        ],
+        "confessions": "Terça e Quinta (15h30 às 17h30)",
+        "events": ["Adoração (Quinta-feira, 15h às 19h)"]
+      },
+      "contact": {
+        "phone": "+55 82 99933-3135, Terça a Sábado (14h às 20h)",
+        "email": "",
+        "instagram": "@paroquiasaolucasmcz"
+      },
+      "type": "matriz"
+    },
+    {
+      "id": 7,
+      "name": "Paróquia Divino Espírito Santo",
+      "location": {
+        "lat": -9.651372,
+        "lng": -35.707587
+      },
+      "address": "Av. Dr. Antônio Gomes de Barros, 20, 57036-000",
+      "neighborhood": "Jatiúca",
+      "priest": "Pe. Maurício",
+      "schedule": {
+        "masses": [
+          "Sábado (8h) [Missa Votiva à Nossa Senhora das Graças]",
+          "1ª Sexta-feira do mês (19h30) [Missa da Misericórdia]",
+          "Segunda a Sexta (16h30)",
+          "Sábado (8h, 16h e 18h)",
+          "Domingo (7h, 10h, 17h e 19h)"
+        ],
+        "confessions": "Terça e Quinta (15h às 17h)",
+        "events": [
+          "Terço dos Homens (Quarta-feira, 19h30)",
+          "Terço da Família (Última quarta-feira do mês, 19h30)",
+          "Santo Terço (1ª Sexta-feira do mês (19h)",
+          "Adoração (1ª Sexta-feira do mês ao final da Missa)"
+        ]
+      },
+      "contact": {
+        "phone": "+55 82 3027-2175, Segunda à Sexta (14h às 18h)",
+        "email": "",
+        "instagram": "@divinojatiuca"
+      },
+      "type": "matriz"
     }
   ]
 }
