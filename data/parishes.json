@@ -87,7 +87,11 @@
       "schedule": {
         "masses": ["Domingo (10h)"],
         "confessions": "30 minutos antes das Missas",
-        "events": ["---"]
+        "events": [
+          "Mulheres do Terço (Segunda-Feira, 19h)",
+          "Legião de Maria (Quarta-feira, 15h)",
+          "Ofício de Nossa Senhora (Sábado, 6h)"
+        ]
       },
       "contact": {
         "phone": "",
