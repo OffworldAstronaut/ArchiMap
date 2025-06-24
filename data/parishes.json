@@ -206,6 +206,107 @@
         "instagram": "@divinojatiuca"
       },
       "type": "matriz"
+    },
+    {
+      "id": 8,
+      "name": "Paróquia Menino Jesus de Praga",
+      "location": {
+        "lat": -9.625173,
+        "lng": -35.739703
+      },
+      "address": "Rua Teófilo de Barros, 122, Farol, 57057-430",
+      "neighborhood": "Pinheiro",
+      "priest": "Pe. Marivaldo da Conceição",
+      "schedule": {
+        "masses": ["Não informado"],
+        "confessions": "Não informado",
+        "events": ["---"]
+      },
+      "contact": {
+        "phone": "+55 (82) 8758-7874 (Ter. e Qui. [17h15m às 20h], Sáb. [15h10m às 18h], Dom. [7h até 12h, 15h30 às 20h])",
+        "email": "",
+        "instagram": "@paroquiadomeninojesus"
+      },
+      "type": "matriz"
+    },
+    {
+      "id": 9,
+      "name": "Paróquia de Santa Terezinha do Menino Jesus",
+      "location": {
+        "lat": -9.601869,
+        "lng": -35.719196
+      },
+      "address": "818, R. Sr. José Bezerra Júnior, 514 - Serraria, Maceió - AL, 57046-521",
+      "neighborhood": "Serraria",
+      "priest": "Monsenhor José Augusto",
+      "schedule": {
+        "masses": [
+          "1ª Sexta-feira do mês (19h)",
+          "Terça e Sábado (19h)",
+          "Quinta (17h)",
+          "Domingo (7h30 e 17h)"
+        ],
+        "confessions": "Não informado",
+        "events": ["Terço dos Mulheres (Segunda, 19h)"]
+      },
+      "contact": {
+        "phone": "+55 82 98165-9754 (Ter. 16h às 18h, Qui. 16h às 17h) [WhatsApp]; 82 3328-6962 [Fone]",
+        "email": "jovensincristo@gmail.com",
+        "instagram": "@sta.terezinha_maceio"
+      },
+      "type": "matriz"
+    },
+    {
+      "id": 10,
+      "name": "Capela de São Judas Tadeu",
+      "location": {
+        "lat": -9.611323,
+        "lng": -35.721424
+      },
+      "address": "R. Adolfo Gustavo - Serraria, Maceió - AL, 57046-150",
+      "neighborhood": "Serraria",
+      "priest": "Monsenhor José Augusto",
+      "schedule": {
+        "masses": [
+          "Quarta-feira (17h)",
+          "1ª Sexta-feira do mês (17h)",
+          "Domingo (9h15min)"
+        ],
+        "confessions": "Não informado",
+        "events": ["---"]
+      },
+      "contact": {
+        "phone": "+55 82 98165-9754 (Ter. 16h às 18h, Qui. 16h às 17h) [WhatsApp]; 82 3328-6962 [Fone]",
+        "email": "jovensincristo@gmail.com",
+        "instagram": ""
+      },
+      "type": "comunidade",
+      "subdivision_of": "Paróquia de Santa Terezinha do Menino Jesus"
+    },
+    {
+      "id": 11,
+      "name": "Capela da Mãe Rainha",
+      "location": {
+        "lat": -9.609646,
+        "lng": -35.727489
+      },
+      "address": "R. E, 154-210 - Serraria, Maceió - AL, 57046-521",
+      "neighborhood": "Serraria",
+      "priest": "Monsenhor José Augusto",
+      "schedule": {
+        "masses": [
+          "Sábado (17h30), exceto o 2º sábado do mês"
+        ],
+        "confessions": "Não informado",
+        "events": ["---"]
+      },
+      "contact": {
+        "phone": "+55 82 98165-9754 (Ter. 16h às 18h, Qui. 16h às 17h) [WhatsApp]; 82 3328-6962 [Fone]",
+        "email": "jovensincristo@gmail.com",
+        "instagram": ""
+      },
+      "type": "comunidade",
+      "subdivision_of": "Paróquia de Santa Terezinha do Menino Jesus"
     }
   ]
 }
